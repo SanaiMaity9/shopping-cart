@@ -1,0 +1,82 @@
+{
+  "configVersion": 1,
+  "timestamp": 1571403316713,
+  "index": "https://raj2912.github.io/Shopping/index.html",
+  "assetGroups": [
+    {
+      "name": "app",
+      "installMode": "prefetch",
+      "updateMode": "prefetch",
+      "urls": [
+        "https://raj2912.github.io/Shopping/favicon.ico",
+        "https://raj2912.github.io/Shopping/index.html",
+        "https://raj2912.github.io/Shopping/main-es2015.ce655d62b82f5c1f4889.js",
+        "https://raj2912.github.io/Shopping/main-es5.09fe53927094272623f3.js",
+        "https://raj2912.github.io/Shopping/manifest.webmanifest",
+        "https://raj2912.github.io/Shopping/polyfills-es2015.00d63f1353d1c363651c.js",
+        "https://raj2912.github.io/Shopping/polyfills-es5.fff267f7f9f1429d8d7b.js",
+        "https://raj2912.github.io/Shopping/runtime-es2015.aa36e2789a7b6e5e7675.js",
+        "https://raj2912.github.io/Shopping/runtime-es5.d3647fbfa3de00cd0bdf.js",
+        "https://raj2912.github.io/Shopping/styles.16b9f80039b1045669bd.css"
+      ],
+      "patterns": []
+    },
+    {
+      "name": "assets",
+      "installMode": "lazy",
+      "updateMode": "prefetch",
+      "urls": [
+        "https://raj2912.github.io/Shopping/assets/data.json",
+        "https://raj2912.github.io/Shopping/assets/icons/icon-128x128.png",
+        "https://raj2912.github.io/Shopping/assets/icons/icon-144x144.png",
+        "https://raj2912.github.io/Shopping/assets/icons/icon-152x152.png",
+        "https://raj2912.github.io/Shopping/assets/icons/icon-192x192.png",
+        "https://raj2912.github.io/Shopping/assets/icons/icon-384x384.png",
+        "https://raj2912.github.io/Shopping/assets/icons/icon-512x512.png",
+        "https://raj2912.github.io/Shopping/assets/icons/icon-72x72.png",
+        "https://raj2912.github.io/Shopping/assets/icons/icon-96x96.png"
+      ],
+      "patterns": []
+    }
+  ],
+  "dataGroups": [],
+  "hashTable": {
+    "https://raj2912.github.io/Shopping/assets/data.json": "20d61aad6cd08983638fd49432a23c7415a6a98f",
+    "https://raj2912.github.io/Shopping/assets/icons/icon-128x128.png": "dae3b6ed49bdaf4327b92531d4b5b4a5d30c7532",
+    "https://raj2912.github.io/Shopping/assets/icons/icon-144x144.png": "b0bd89982e08f9bd2b642928f5391915b74799a7",
+    "https://raj2912.github.io/Shopping/assets/icons/icon-152x152.png": "7479a9477815dfd9668d60f8b3b2fba709b91310",
+    "https://raj2912.github.io/Shopping/assets/icons/icon-192x192.png": "1abd80d431a237a853ce38147d8c63752f10933b",
+    "https://raj2912.github.io/Shopping/assets/icons/icon-384x384.png": "329749cd6393768d3131ed6304c136b1ca05f2fd",
+    "https://raj2912.github.io/Shopping/assets/icons/icon-512x512.png": "559d9c4318b45a1f2b10596bbb4c960fe521dbcc",
+    "https://raj2912.github.io/Shopping/assets/icons/icon-72x72.png": "c457e56089a36952cd67156f9996bc4ce54a5ed9",
+    "https://raj2912.github.io/Shopping/assets/icons/icon-96x96.png": "3914125a4b445bf111c5627875fc190f560daa41",
+    "https://raj2912.github.io/Shopping/favicon.ico": "84161b857f5c547e3699ddfbffc6d8d737542e01",
+    "https://raj2912.github.io/Shopping/index.html": "852fcfa2ee6888224a7287b5dd37c760034feb7a",
+    "https://raj2912.github.io/Shopping/main-es2015.ce655d62b82f5c1f4889.js": "648906b5d1134e4389cb145613d445d0e18b8ff3",
+    "https://raj2912.github.io/Shopping/main-es5.09fe53927094272623f3.js": "9ff86a9850e94024790b042785625f7a5a42991d",
+    "https://raj2912.github.io/Shopping/manifest.webmanifest": "d2e5d61bcd4bd814c0282ce031427c2f874e2dc9",
+    "https://raj2912.github.io/Shopping/polyfills-es2015.00d63f1353d1c363651c.js": "08c97940ba93ccc4121b85df6911d86011ef3fb8",
+    "https://raj2912.github.io/Shopping/polyfills-es5.fff267f7f9f1429d8d7b.js": "9d9b583788005b7e2dc51d2b965f7c09b9180c60",
+    "https://raj2912.github.io/Shopping/runtime-es2015.aa36e2789a7b6e5e7675.js": "b62956c2192bfe5516d6374e753773901ed50ec5",
+    "https://raj2912.github.io/Shopping/runtime-es5.d3647fbfa3de00cd0bdf.js": "b62956c2192bfe5516d6374e753773901ed50ec5",
+    "https://raj2912.github.io/Shopping/styles.16b9f80039b1045669bd.css": "b05e4ed31c7ef848fa673159d21bbf09ca4c5eff"
+  },
+  "navigationUrls": [
+    {
+      "positive": true,
+      "regex": "^\\/.*$"
+    },
+    {
+      "positive": false,
+      "regex": "^\\/(?:.+\\/)?[^/]*\\.[^/]*$"
+    },
+    {
+      "positive": false,
+      "regex": "^\\/(?:.+\\/)?[^/]*__[^/]*$"
+    },
+    {
+      "positive": false,
+      "regex": "^\\/(?:.+\\/)?[^/]*__[^/]*\\/.*$"
+    }
+  ]
+}
