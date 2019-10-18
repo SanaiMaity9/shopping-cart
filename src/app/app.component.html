@@ -1,0 +1,17 @@
+<div>
+  <div>
+      <button class="button" routerLink="/home" *ngIf="!getUrl()">Back</button>
+      <h2 class="shopping-heading">
+          Shopping Cart Application
+      </h2>
+     
+  </div>
+  <div routerLink="/cart" class="icon-cart" *ngIf="getUrl()">
+    <div class="cart-line-1" style="background-color: #E5E9EA"></div>
+    <div class="cart-line-2" style="background-color: #E5E9EA"></div>
+    <div class="cart-line-3" style="background-color: #E5E9EA"></div>
+    <div class="cart-wheel" style="background-color: #E5E9EA"></div>
+  </div>
+ 
+  <router-outlet></router-outlet>
+</div>

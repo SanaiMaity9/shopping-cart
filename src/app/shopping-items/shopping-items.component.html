@@ -1,0 +1,29 @@
+<div class="item-div border" *ngFor="let item of items">
+    <div class="img-div">
+      <img src="{{item.ImageURL}}" class="img"
+        alt="prooduct image">
+        <br><span>{{item.OfferText}}</span>
+    </div>
+    <div class="details-div">
+      <p><b>{{item.BrandName}}</b></p>
+      <p>{{item.ProductName}}</p>
+      <p>MRP {{item.MRF}}</p>
+      <p><b>{{item.Price}}</b></p>
+      <button class="button" (click)="addToCart(item)">ADD CART</button>
+      <button class="plus" (click)="addQuantity(item)">+</button>
+      <input type="text" pattern="[0-9]" class="quantity" [(ngModel)]="item.Quantity" readonly/>
+      <button class="minus" (click)="minusQuantity(item)">-</button>
+    </div>
+</div>
+
+<jw-modal id="custom-modal-1">
+    <h1>Successful</h1>
+    <p>Item removed from cart.</p>
+    <button (click)="closeModal('custom-modal-1');">Close</button>
+</jw-modal>
+
+<jw-modal id="custom-modal-2">
+    <h1>Successful</h1>
+    <p>Item added to cart.</p>
+    <button (click)="closeModal('custom-modal-2');">Close</button>
+</jw-modal>

@@ -1,0 +1,214 @@
+/* You can add global styles to this file, and also import other style files */
+* {
+  box-sizing: border-box;
+}
+
+.border {
+  border-bottom: 1px solid
+}
+
+.item-div {
+  margin-left: 20%;
+  margin-right: 20%;
+  width: 50%;
+  height: auto;
+  word-break: break-all;
+}
+
+.details-div {
+  margin-left: 20%;
+}
+
+.img {
+  width: 75px;
+}
+
+.button {
+  background-color: #4CAF50;
+  border: none;
+  color: black;
+  padding: 10px 25px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  margin: 4px 2px;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+.plus {
+  background-color: #4CAF50;
+  border: none;
+  color: black;
+  padding: 10px 14px;
+  font-weight: bold;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  margin-left: 50px;
+  margin-right: 4px;
+  cursor: pointer;
+  border-radius: 50px;
+}
+
+.quantity{
+    width: 30px;
+    -webkit-appearance: none;
+}
+
+.minus {
+    background-color: #4CAF50;
+    border: none;
+    color: black;
+    padding: 10px 14px;
+    font-weight: bold;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 50px;
+  }
+
+.img-div {
+  float: left;
+  text-align: center;
+}
+
+@media screen and (max-width: 600px) {
+  .img {
+    float: none;
+  }
+
+  .img-div {
+    float: none;
+  }
+}
+
+@media screen and (max-width: 340px) {
+  .img {
+    float: none;
+  }
+
+  .img-div {
+    float: none;
+  }
+}
+
+.shopping-heading {
+  font-weight: bold;
+  text-align: center;
+}
+
+
+.icon-cart {
+  cursor: pointer;
+  width: 48px;
+  height: 48px;
+  position: relative;
+  overflow: hidden;
+  margin-left: 25px;
+  margin-bottom: 25px;
+  position: absolute;
+  top: 8px; 
+  right: 35px;
+  background-color: #4CAF50;
+  border-radius: 5px;
+}
+
+.icon-cart .cart-line-1 {
+  width: 15%;
+  height: 7%;
+  position: absolute;
+  left: 8%;
+  top: 25%;
+  -webkit-transform: rotate(5deg);
+  -moz-transform: rotate(5deg);
+  -ms-transform: rotate(5deg);
+  transform: rotate(5deg); 
+  background-color: #000;
+  border-bottom-left-radius: 35%;
+}
+
+.icon-cart .cart-line-2 {
+  width: 35%;
+  height: 7%;
+  position: absolute;
+  left: 6%;
+  top: 40%;
+  -webkit-transform: rotate(80deg);
+  -moz-transform: rotate(80deg);
+  -ms-transform: rotate(80deg);
+  transform: rotate(80deg); 
+  background-color: #000;
+}
+
+.icon-cart .cart-line-2:before {
+  content: "";
+  width: 120%;
+  height: 100%;
+  position: absolute;
+  left: 45%;
+  top: -280%;
+  -webkit-transform: rotate(-80deg);
+  -moz-transform: rotate(-80deg);
+  -ms-transform: rotate(-80deg);
+  transform: rotate(-80deg); 
+  background-color: inherit;
+}
+
+.icon-cart .cart-line-2:after {
+  content: "";
+  width: 70%;
+  height: 100%;
+  position: absolute;
+  left: 59%;
+  top: -670%;
+  background-color: inherit;
+  -webkit-transform: rotate(40deg);
+  -moz-transform: rotate(40deg);
+  -ms-transform: rotate(40deg);
+  transform: rotate(40deg); 
+  border-top-left-radius: 50%;
+  border-bottom-left-radius: 25%;
+}
+
+.icon-cart .cart-line-3 {
+  width: 30%;
+  height: 7%;
+  position: absolute;
+  left: 33%;
+  top: 45%;
+  background-color: #000;
+}
+
+.icon-cart .cart-line-3:after {
+  content: "";
+  width: 124%;
+  height: 100%;
+  position: absolute;
+  top: -150%;
+  left: -5%;
+  background-color: inherit;
+}
+
+.icon-cart .cart-wheel {
+  width: 12%;
+  height: 12%;
+  background-color: #000;
+  border-radius: 100%;
+  position: absolute;
+  left: 28%;
+  bottom: 20%;
+}
+
+.icon-cart .cart-wheel:after {
+  content: "";
+  width: 100%;
+  height: 100%;
+  background-color: inherit;
+  border-radius: 100%;
+  position: absolute;
+  left: 200%;
+  bottom: 0;
+}
